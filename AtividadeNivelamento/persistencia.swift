@@ -3,8 +3,7 @@
 //  AtividadeNivelamento
 //
 //  Created by Shinohara, Helio Akio on 12/04/26.
-//sistema-contatos-atividade-nivelamento-01
-//Sistema de Contatos - Atividade de Nivelamento - Curso IOS (Capgemini - Proway)
+
 
 func inserirContato(id: Int, nome: String, idade: Int, telefone: String, email: String, contatos: inout [Contato]) -> Void {
     contatos.append(Contato(id: id, nome: nome, idade: idade, telefone: telefone, email: email))
