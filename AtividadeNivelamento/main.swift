@@ -18,7 +18,7 @@ repeat {
     
     if let opcao = readLine() {
         switch opcao {
-            case "1":
+        case "1":
             gerenciador.cadastrarContato()
         case "2":
             gerenciador.listarContatos()
